@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#020305">
+  <title>Fortune Etsu — Developer · AI Creator</title>
+  <meta name="description" content="Portfolio of Fortune Etsu — frontend developer, builder and AI creator.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="space-scene" aria-hidden="true">
+    <canvas id="stars"></canvas>
+    <div class="nebula nebula-a"></div>
+    <div class="nebula nebula-b"></div>
+    <div class="orbit orbit-a"></div>
+    <div class="orbit orbit-b"></div>
+    <div class="orbit orbit-c"></div>
+    <div class="planet planet-a"></div>
+    <div class="planet planet-b"></div>
+    <div class="glow-point gp-a"></div>
+    <div class="glow-point gp-b"></div>
+    <div class="glow-point gp-c"></div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Fortune Etsu home"><span>FE</span><i></i></a>
+    <nav class="main-nav">
+      <a class="nav-link active" href="#home">HOME</a>
+      <a class="nav-link" href="#about">ABOUT</a>
+      <a class="nav-link" href="#what-i-do">WHAT I DO</a>
+      <a class="nav-link" href="#projects">PROJECTS</a>
+      <a class="nav-link" href="#skills">SKILLS</a>
+      <a class="nav-link" href="#journey">JOURNEY</a>
+      <a class="nav-link" href="#contact">CONTACT</a>
+    </nav>
+    <div class="header-right">
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/fortune-etsu-27427020a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+        <a href="https://github.com/Osivuetsu" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GH</a>
+      </div>
+      <a class="talk-btn magnetic" href="#contact">LET'S TALK <span>↗</span></a>
+    </div>
+    <button class="menu-btn" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </header>
+
+  <div class="mobile-menu">
+    <a href="#home">HOME</a><a href="#about">ABOUT</a><a href="#what-i-do">WHAT I DO</a>
+    <a href="#projects">PROJECTS</a><a href="#skills">SKILLS</a><a href="#journey">JOURNEY</a><a href="#contact">CONTACT</a>
+  </div>
+
+  <aside class="side-rail" aria-hidden="true">
+    <span class="rail-number">01</span>
+    <div class="rail-track"><i></i></div>
+    <span class="rail-label">SCROLL</span>
+  </aside>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span></span> WELCOME TO MY PORTFOLIO <i></i></div>
+        <h1>Hi, I'm<br><strong>Fortune <em>Etsu</em></strong></h1>
+        <div class="roles">DEVELOPER <b>/</b> AI CREATOR <b>/</b> PROBLEM SOLVER</div>
+        <p>I build digital experiences, intelligent systems, and AI-powered visual stories that turn ideas into reality.</p>
+        <div class="hero-actions">
+          <a class="primary-btn magnetic" href="#projects">EXPLORE MY WORK <span>→</span></a>
+          <a class="text-btn" href="#about">ABOUT ME <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="art-ring ring-1"></div>
+        <div class="art-ring ring-2"></div>
+        <div class="art-ring ring-3"></div>
+        <div class="hero-image-wrap">
+          <img src="assets/hero-space.png" alt="Fortune Etsu in a cinematic space-themed portrait">
+          <div class="image-vignette"></div>
+        </div>
+        <div class="orbit-tag tag-ideas"><span></span> IDEAS</div>
+        <div class="orbit-tag tag-code"><span></span> CODE</div>
+        <div class="orbit-tag tag-create"><span></span> CREATE</div>
+      </div>
+
+      <div class="hero-note reveal">
+        <small>01 / 03</small>
+        <p>TURNING<br>IDEAS INTO<br><b>DIGITAL REALITY</b></p>
+        <i></i>
+      </div>
+
+      <div class="hero-bottom reveal">
+        <div class="availability"><span></span> AVAILABLE FOR NEW PROJECTS</div>
+        <div class="contact-mini">
+          <span>⌖ Lagos, Nigeria</span><b></b><span>✉ yourname@email.com</span>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#about"><span></span>SCROLL DOWN</a>
+    </section>
+
+    <section id="about" class="section content-section">
+      <div class="section-kicker">02 — ABOUT</div>
+      <div class="about-grid">
+        <div class="section-heading reveal">
+          <p class="mini-label">A LITTLE ABOUT ME</p>
+          <h2>Building with<br><em>curiosity.</em></h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="lead">I'm a developer and AI creator focused on turning complex ideas into useful, beautiful digital experiences.</p>
+          <p>I enjoy working where engineering, design and emerging technology meet — from interfaces and APIs to AI-generated visual content.</p>
+          <div class="about-facts">
+            <div><strong>03+</strong><span>YEARS<br>EXPERIENCE</span></div>
+            <div><strong>20+</strong><span>PROJECTS<br>COMPLETED</span></div>
+            <div><strong>∞</strong><span>IDEAS<br>IN PROGRESS</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="what-i-do" class="section content-section services-section">
+      <div class="section-kicker">03 — WHAT I DO</div>
+      <div class="services-intro reveal">
+        <div><p class="mini-label">THREE DIRECTIONS</p><h2>Different tools.<br><em>One purpose.</em></h2></div>
+        <p>Whether it is code or generated imagery, I use technology to make an idea feel real.</p>
+      </div>
+      <div class="services">
+        <article class="service reveal">
+          <span class="service-index">01</span>
+          <div class="service-icon">⌁</div>
+          <h3>Frontend<br>Development</h3>
+          <p>Responsive interfaces, polished interactions and thoughtful component systems that feel fast and intentional.</p>
+          <div class="tech-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span></div>
+        </article>
+        <article class="service reveal">
+          <span class="service-index">02</span>
+          <div class="service-icon">{ }</div>
+          <h3>Backend<br>Development</h3>
+          <p>APIs, server-side logic, databases and the systems behind reliable digital products.</p>
+          <div class="tech-list"><span>Node</span><span>Python</span><span>APIs</span><span>Databases</span></div>
+        </article>
+        <article class="service reveal">
+          <span class="service-index">03</span>
+          <div class="service-icon">✦</div>
+          <h3>AI Video<br>Creation</h3>
+          <p>Cinematic AI visuals, product commercials and story-driven video concepts built for modern brands.</p>
+          <div class="tech-list"><span>GenAI</span><span>Prompting</span><span>Video</span><span>Story</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section content-section projects-section">
+      <div class="section-kicker">04 — SELECTED PROJECTS</div>
+      <div class="projects-heading reveal">
+        <div>
+          <p class="mini-label">EXPLORE BY DISCIPLINE</p>
+          <h2>Work, organised<br>by <em>craft.</em></h2>
+        </div>
+        <p>Each discipline has its own collection. Swipe, drag, or use the controls to move through the work.</p>
+      </div>
+
+      <div class="project-niche reveal" id="frontend-projects">
+        <div class="niche-header">
+          <div class="niche-title"><span>01</span><div><small>FRONTEND DEVELOPMENT</small><h3>Digital Interfaces</h3></div></div>
+          <div class="rail-controls" aria-label="Frontend project controls">
+            <span class="rail-count"><b>01</b> / 02</span>
+            <button class="rail-btn prev" type="button" aria-label="Previous frontend project">←</button>
+            <button class="rail-btn next" type="button" aria-label="Next frontend project">→</button>
+          </div>
+        </div>
+        <div class="project-rail-wrap">
+          <div class="project-rail" data-rail="frontend">
+            <a class="project-card rail-card live-project" data-project="atelier" href="https://atelier-react-bs2peacek-osivuetsus-projects.vercel.app" target="_blank" rel="noopener noreferrer">
+              <div class="project-visual visual-atelier has-shot">
+                <img src="assets/projects/atelier.jpg" alt="ATELIER designer dashboard showing clients, orders and a virtual studio preview" loading="lazy">
+                <div class="shot-scrim"></div>
+                <span>FRONTEND / 01</span>
+                <div class="shot-overlay"><small>ATELIER</small><b>Virtual Fashion Studio</b><i>DESIGNER WORKSPACE · CUSTOMER TRY-ON</i></div>
+              </div>
+              <div class="project-info"><div><h4>Atelier — Virtual Fashion Studio</h4><p>A SaaS platform for tailors, fashion designers and made-to-measure studios. Designer side handles clients, orders, fit profiles and a calendar; customer side offers style discovery and an AI-powered virtual try-on.</p><div class="tech-list"><span>React</span><span>Vite</span><span>Tailwind</span><span>AI Try-On API</span></div></div><span>↗</span></div>
+            </a>
+            <a class="project-card rail-card live-project" data-project="autovybe" href="https://auto-vybe.onrender.com/" target="_blank" rel="noopener noreferrer">
+              <div class="project-visual visual-autovybe has-shot">
+                <img src="assets/projects/autovybe.jpg" alt="AutoVybe Nigeria car dealership storefront homepage" loading="lazy">
+                <div class="shot-scrim"></div>
+                <span>FRONTEND / 02</span>
+                <div class="shot-overlay"><small>AUTOVYBE</small><b>Car Dealership Storefront</b><i>INVENTORY · FINANCING · WHATSAPP</i></div>
+              </div>
+              <div class="project-info"><div><h4>AutoVybe Nigeria</h4><p>A modern digital storefront for a car dealership, built from a Google Stitch prototype. Inventory search and filtering, a financing calculator, and WhatsApp / call-to-action integration, tuned for the Nigerian market.</p><div class="tech-list"><span>React</span><span>Vite</span><span>Tailwind</span></div></div><span>↗</span></div>
+            </a>
+          </div>
+          <div class="rail-hint"><span></span> DRAG TO EXPLORE <i></i></div>
+          <div class="rail-progress"><i></i></div>
+        </div>
+      </div>
+
+      <div class="project-niche reveal" id="backend-projects">
+        <div class="niche-header">
+          <div class="niche-title"><span>02</span><div><small>BACKEND DEVELOPMENT</small><h3>Systems & Infrastructure</h3></div></div>
+          <div class="rail-controls" aria-label="Systems project controls">
+            <span class="rail-count"><b>01</b> / 01</span>
+            <button class="rail-btn prev" type="button" aria-label="Previous systems project">←</button>
+            <button class="rail-btn next" type="button" aria-label="Next systems project">→</button>
+          </div>
+        </div>
+        <div class="project-rail-wrap">
+          <div class="project-rail" data-rail="backend">
+            <a class="project-card rail-card live-project" data-project="biometric" href="https://biometrics-frontend.onrender.com/" target="_blank" rel="noopener noreferrer">
+              <div class="project-visual visual-biometric has-shot">
+                <img src="assets/projects/biometric.jpg" alt="AttendEye lecturer dashboard for taking face-recognition attendance" loading="lazy">
+                <div class="shot-scrim"></div>
+                <span>SYSTEMS / 01</span>
+                <div class="shot-overlay"><small>ATTENDEYE</small><b>Biometric Attendance System</b><i>FACE RECOGNITION · MULTI-FRAME CONFIRM</i></div>
+              </div>
+              <div class="project-info"><div><h4>Student Biometric Database System</h4><p>Face-recognition attendance system built around a course/session database — lecturers pick a course, choose single or multi-face recognition mode, and the system confirms attendance across three captured frames before logging it.</p><div class="tech-list"><span>Database</span><span>Face Recognition</span><span>API Integration</span></div></div><span>↗</span></div>
+            </a>
+          </div>
+          <div class="rail-hint"><span></span> DRAG TO EXPLORE <i></i></div>
+          <div class="rail-progress"><i></i></div>
+        </div>
+      </div>
+
+      <div class="project-niche reveal project-niche-inactive" id="ai-projects">
+        <div class="niche-header">
+          <div class="niche-title"><span>03</span><div><small>AI VIDEO CREATION</small><h3>Cinematic Visuals</h3></div></div>
+          <span class="niche-status">NO PROJECTS PUBLISHED YET</span>
+        </div>
+        <div class="inactive-project-panel">
+          <span>AI VIDEO / 03</span>
+          <p>AI video work will appear here when there is a finished project to showcase.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section content-section skills-section">
+      <div class="section-kicker">05 — SKILLS</div>
+      <div class="skills-grid">
+        <div class="reveal"><p class="mini-label">TOOLS IN THE ORBIT</p><h2>What I work<br>with.</h2></div>
+        <div class="skill-cloud reveal">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Node.js</span><span>Python</span><span>REST APIs</span><span>SQL</span><span>Git</span><span>AI Generation</span><span>Prompt Engineering</span><span>Creative Direction</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="journey" class="section content-section journey-section">
+      <div class="section-kicker">06 — JOURNEY</div>
+      <div class="journey-grid">
+        <div class="reveal"><p class="mini-label">THE PATH SO FAR</p><h2>Still moving.<br><em>Still learning.</em></h2></div>
+        <div class="timeline reveal">
+          <div class="timeline-item"><span>NOW</span><div><h3>Developer · AI Creator</h3><p>Building products, experiments and visual stories across code and generative media.</p></div></div>
+          <div class="timeline-item"><span>2025</span><div><h3>Deepening the craft</h3><p>Exploring modern web development, backend systems and AI-assisted creative workflows.</p></div></div>
+          <div class="timeline-item"><span>START</span><div><h3>Curiosity became a skill</h3><p>Learning by making — one interface, system and idea at a time.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-orbit"></div>
+      <div class="section-kicker">07 — CONTACT</div>
+      <div class="contact-main reveal">
+        <p class="mini-label">HAVE AN IDEA?</p>
+        <h2>Let's make<br>something <em>real.</em></h2>
+        <a class="email-link magnetic" href="mailto:yourname@email.com">yourname@email.com <span>↗</span></a>
+      </div>
+      <div class="contact-bottom">
+        <div><small>LOCATION</small><span>Lagos, Nigeria</span></div>
+        <div><small>SOCIALS</small><span><a href="https://www.linkedin.com/in/fortune-etsu-27427020a" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="https://github.com/Osivuetsu" target="_blank" rel="noopener noreferrer">GitHub</a></span></div>
+        <div><small>STATUS</small><span><i></i> Available for new projects</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Fortune Etsu</span><span>BUILT WITH CURIOSITY · FROM LAGOS TO EVERYWHERE</span><a href="#home">BACK TO TOP ↑</a></footer>
+
+  <div class="project-modal" id="projectModal" aria-hidden="true">
+    <div class="project-modal-backdrop" data-modal-close></div>
+    <div class="project-modal-panel" role="dialog" aria-modal="true" aria-labelledby="pmTitle">
+      <button class="project-modal-close" type="button" aria-label="Close project details" data-modal-close>×</button>
+      <div class="pm-media"><img id="pmImage" src="" alt=""></div>
+      <div class="pm-body">
+        <p class="pm-eyebrow" id="pmEyebrow"></p>
+        <h3 id="pmTitle"></h3>
+        <p class="pm-desc" id="pmDesc"></p>
+        <div class="tech-list" id="pmTech"></div>
+        <a class="primary-btn pm-visit" id="pmVisit" href="#" target="_blank" rel="noopener noreferrer">VISIT LIVE SITE <span>↗</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+  <div class="cursor-trail"></div>
+  <script src="script.js"></script>
+</body>
+</html>
