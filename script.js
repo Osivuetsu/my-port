@@ -111,8 +111,7 @@ const projectData={
     image:"assets/projects/atelier.jpg",
     desc:"A SaaS platform for tailors, fashion designers and made-to-measure studios — not a single-store storefront. The designer workspace covers clients, orders & payments, a collection, fit profiles, a Virtual Studio and a calendar; the customer space offers style discovery, a personal fit profile and an AI-powered virtual try-on.",
     tech:["React","Vite","Tailwind CSS","AI Try-On API"],
-    url:"https://atelier-react-bs2peacek-osivuetsus-projects.vercel.app"
-  },
+    url:"https://atelier-react-green.vercel.app"},
   biometric:{
     eyebrow:"SYSTEMS / 01 · SYSTEMS & INFRASTRUCTURE",
     title:"Student Biometric Database System",
